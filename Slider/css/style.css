@@ -1,0 +1,23 @@
+ p::before{
+        content: "Texto despues"
+    }
+ul li{
+    list-style: none
+}
+.navegacion{
+    background-color: aqua;
+}
+nav{
+    width: auto;
+    margin: 0;   
+}
+nav >ul>li{
+    float: left;
+}
+nav ul::after
+ul li a{
+    display: inline-block;
+}
+body{
+    border-color: aqua;
+}
